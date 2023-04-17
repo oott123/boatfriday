@@ -1,0 +1,16 @@
+{
+  "name": "boatfriday",
+  "packageManager": "yarn@3.5.0",
+  "devDependencies": {
+    "@ainou/code-style": "^0.0.24",
+    "@types/eslint": "^8",
+    "@types/node": "16",
+    "@types/prettier": "^2",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "esbuild": "^0.17.17",
+    "eslint": "^8.38.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
+  }
+}
