@@ -1,6 +1,11 @@
 {
   "name": "boatfriday",
   "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --outfile=dist/boarfriday.js",
+    "watch": "yarn build --watch",
+    "start": "frida -U -l ./dist/boarfriday.js -f"
+  },
   "devDependencies": {
     "@ainou/code-style": "^0.0.24",
     "@types/eslint": "^8",
@@ -12,5 +17,8 @@
     "eslint": "^8.38.0",
     "prettier": "^2.8.7",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "frida-il2cpp-bridge": "^0.7.13"
   }
 }

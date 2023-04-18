@@ -899,6 +899,7 @@ __metadata:
     "@typescript-eslint/parser": ^5.58.0
     esbuild: ^0.17.17
     eslint: ^8.38.0
+    frida-il2cpp-bridge: ^0.7.13
     prettier: ^2.8.7
     typescript: ^5.0.4
   languageName: unknown
@@ -1048,6 +1049,13 @@ __metadata:
     supports-color:
       optional: true
   checksum: 3dbad3f94ea64f34431a9cbf0bafb61853eda57bff2880036153438f50fb5a84f27683ba0d8e5426bf41a8c6ff03879488120cf5b3a761e77953169c0600a708
+  languageName: node
+  linkType: hard
+
+"decorator-cache-getter@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "decorator-cache-getter@npm:1.0.0"
+  checksum: 78f9278e975bce54d186f8484f589b8993fdc10217b45d1cebda0c016a667ee269d8aaedf6bcdee770441194ad19c52dd4e80cb987d62198ee8491440f28394d
   languageName: node
   linkType: hard
 
@@ -1486,6 +1494,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fastest-levenshtein@npm:^1.0.12":
+  version: 1.0.16
+  resolution: "fastest-levenshtein@npm:1.0.16"
+  checksum: a78d44285c9e2ae2c25f3ef0f8a73f332c1247b7ea7fb4a191e6bb51aa6ee1ef0dfb3ed113616dcdc7023e18e35a8db41f61c8d88988e877cf510df8edafbc71
+  languageName: node
+  linkType: hard
+
 "fastq@npm:^1.6.0":
   version: 1.15.0
   resolution: "fastq@npm:1.15.0"
@@ -1546,6 +1561,17 @@ __metadata:
   dependencies:
     is-callable: ^1.1.3
   checksum: 6c48ff2bc63362319c65e2edca4a8e1e3483a2fabc72fbe7feaf8c73db94fc7861bd53bc02c8a66a0c1dd709da6b04eec42e0abdd6b40ce47305ae92a25e5d28
+  languageName: node
+  linkType: hard
+
+"frida-il2cpp-bridge@npm:^0.7.13":
+  version: 0.7.13
+  resolution: "frida-il2cpp-bridge@npm:0.7.13"
+  dependencies:
+    decorator-cache-getter: ^1.0.0
+    fastest-levenshtein: ^1.0.12
+    versioning: ^1.1.2
+  checksum: 01c2bff3e473bbf9bfe69eced794ecac1ec937e2ff5c7056813c7b014287cecfe591153952d1516aaf0ab10ee6ee7979dc5290c48e078728d39a23bd645e95ad
   languageName: node
   linkType: hard
 
@@ -2723,6 +2749,13 @@ __metadata:
   dependencies:
     punycode: ^2.1.0
   checksum: 7167432de6817fe8e9e0c9684f1d2de2bb688c94388f7569f7dbdb1587c9f4ca2a77962f134ec90be0cc4d004c939ff0d05acc9f34a0db39a3c797dada262633
+  languageName: node
+  linkType: hard
+
+"versioning@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "versioning@npm:1.1.2"
+  checksum: 46170a19ffb45dabce8a55926428590224c04ae58d0ac6cd01a6c8c708d23f656e3c75ae66ded07f1fda4da1568c9ab689d774d5fbe535a8a0c2a29514fd68e7
   languageName: node
   linkType: hard
 
